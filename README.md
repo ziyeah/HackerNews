@@ -1,3 +1,10 @@
+# The following issue is not a bug
+### Title link not working
+Currently, if users click the news title, they won’t be navigate to the corresponding page. This is due to the ‘url’ info is missing. You can quickly check this issue by copy past the url to the browser:
+‘https://hacker-news.firebaseio.com/v0/item/32588703.json?print=pretty’   no url
+‘https://hacker-news.firebaseio.com/v0/item/8863.json?print=pretty’   has url
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
