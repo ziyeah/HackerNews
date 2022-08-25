@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
 
 .postContainer {
   margin: 15px 0;
 }
 
 .postTitle {
-  font-family: 'Ubuntu Mono', monospace;
+  font-family: "Ubuntu Mono", monospace;
   font-size: 18px;
   font-weight: 700;
 }
 
 .postInfo {
   font-size: 10px;
-  color: #00000080;
+  color: #8e8f92;
   margin-bottom: 26px;
 }
 
@@ -20,5 +20,5 @@
   border: none;
   background: none;
   font-size: 10px;
-  color: #00000080;
+  color: #8e8f92;
 }

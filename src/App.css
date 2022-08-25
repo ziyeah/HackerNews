@@ -1,16 +1,30 @@
-
 :root {
-  --orange: #FE7139;
+  --orange: #fe7139;
+  --dark: #1e2025;
+}
+body {
+  height: 100%;
+}
+
+.container {
+  background-color: white;
+}
+.container-dark {
+  background-color: var(--dark);
 }
 
 .App {
   position: relative;
   text-align: center;
-  margin: 45px 90px 30px 90px;
-  min-height: calc(100vh - 75px);
+  margin: 0 90px 0 90px;
+  min-height: 100vh;
+}
+.App-dark {
+  color: white;
 }
 
 .main {
+  padding-top: 45px;
   padding-bottom: 100px;
 }
 
@@ -34,7 +48,7 @@
   margin-right: 36px;
 }
 
-.buttonContainer{
+.buttonContainer {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -45,9 +59,19 @@
   background: none;
   cursor: pointer;
 }
-.button-starred{
+.button-dark {
+  color: white;
+}
+.button-starred {
   color: var(--orange);
   font-weight: bolder;
+}
+
+.darkModeButton {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  right: 0;
 }
 
 .posts {
@@ -58,6 +82,7 @@
   position: absolute;
   bottom: 0;
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .showMore {
@@ -67,6 +92,7 @@
   display: flex;
   font-size: 14px;
   padding: 10px;
-  margin: 25px 40px;
+  margin-left: 40px;
+  margin-bottom: 50px;
   cursor: pointer;
 }
